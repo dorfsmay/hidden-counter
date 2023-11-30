@@ -19,7 +19,7 @@ function App() {
       </div>
       <div className="buttons">
         <button onClick={() => setCounter((x) => x + 1)}>counter</button>
-        <button onClick={() => setRerender((x) => !x)}>render</button>
+        <button onClick={() => setRerender()}>render</button>
         <button onClick={() => (hidden.current = hidden.current + 1)}>
           hidden
         </button>
